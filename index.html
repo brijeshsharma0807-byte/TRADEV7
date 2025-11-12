@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeV8 | Personal Trader Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0b0b0c;
+            color: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(90deg, #111, #1b1b1b);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+        header h1 {
+            color: #d4af37;
+            font-size: 1.8rem;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #d4af37;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: url('https://images.unsplash.com/photo-1561414927-6d86591d0c4f?auto=format&fit=crop&w=1400&q=80') center/cover;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #f0f0f0;
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #d4af37;
+            margin-bottom: 2rem;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: #1b1b1b;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+        .card h3 {
+            color: #d4af37;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #111;
+            color: #aaa;
+        }
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TradeV8</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#insights">Insights</a>
+            <a href="#strategies">Strategies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Smart Trading. Smarter Growth.</h2>
+        <p>Welcome to TradeV8 — where analysis meets precision. I’m TraderV8, sharing insights, setups, and market strategies to help traders level up their game.</p>
+    </section>
+
+    <section id="insights">
+        <h2>Market Insights</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>XAUUSD Setup</h3>
+                <p>Looking for a potential breakout near resistance. Watch 2385–2390 zone for possible short entries.</p>
+            </div>
+            <div class="card">
+                <h3>EURUSD Trend</h3>
+                <p>EMA crossover indicates bullish momentum. Support holds strong near 1.0680.</p>
+            </div>
+            <div class="card">
+                <h3>BTCUSD Watch</h3>
+                <p>Price consolidating after recent rally. Wait for confirmation candle before entries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategies">
+        <h2>My Strategies</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>5 & 8 EMA Strategy</h3>
+                <p>Simple and powerful — focus on full-body candle breakouts with EMA cross confirmation.</p>
+            </div>
+            <div class="card">
+                <h3>Hull Moving Average</h3>
+                <p>Use Hull MA crossover to identify trend reversals early with minimum lag.</p>
+            </div>
+            <div class="card">
+                <h3>News & Volatility</h3>
+                <p>Trade around key market hours and avoid false breakouts during low volume sessions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p style="text-align:center;">You can reach me at <a href="mailto:contact@tradev8.com">contact@tradev8.com</a> or follow @TradeV8 on social platforms.<br>(Links will be updated soon.)</p>
+    </section>
+
+    <footer>
+        <p>© 2025 TradeV8 | Designed by TraderV8</p>
+    </footer>
+</body>
+</html>
